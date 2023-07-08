@@ -1,0 +1,147 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif; 
+    color: white;
+}
+
+.hero {
+    height: 343px;
+    background: url("images/sf-img.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-size: 32px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background: #1D3557;
+    margin-bottom: 0;
+}
+
+.hero h2 {
+    width: 412px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #457B9D;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.activity-section {
+    height: 378px;
+    background: #1D3557;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-section h3 {
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 24px;
+    width: 275px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.activity {
+    width: 198px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 16px;
+    /* border: 2px solid red; */
+}
+
+.activity h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+
+.activity p {
+    font-weight: 400;
+    opacity: 0.70;
+    font-size: 15px;
+    margin: 0;
+}
+
+.section-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.guide-section {              
+    padding: 50px;  
+    background: whitesmoke;                      
+}
+
+.card {
+    width: 400px;
+    height: 294px;
+    background: #457B9D;
+    margin: 0 auto;                     
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.card:hover {
+    background: linear-gradient(#f5af19, #f12711);
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card p {
+    opacity: 0.70;
+}
+
+.card img {
+    width: 200px;
+    height: 248px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.guide-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
